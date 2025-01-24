@@ -1,0 +1,77 @@
+/* src/App.css */
+
+/* Styling for the body of the document */
+body {
+  background-color: #f8f9fa; /* Light gray background color */
+  color: #343a40; /* Dark gray text color */
+  font-family: "Arial", sans-serif; /* Font family for the entire document */
+}
+
+/* Styling for the root App component */
+.App {
+  text-align: center; /* Center-align text within the component */
+  margin: 50px auto; /* Margin and auto for centering the component */
+  padding: 20px; /* Padding around the component */
+  max-width: 800px; /* Maximum width of the component */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle shadow effect */
+  border-radius: 8px; /* Border radius for rounded corners */
+}
+
+/* Styling for h1 elements within the component */
+h1 {
+  color: #007bff; /* Blue color for h1 elements */
+}
+
+/* Styling for the TodoList component */
+.todo-list {
+  margin-top: 20px; /* Top margin for the TodoList component */
+}
+
+/* Styling for individual task items */
+.task {
+  border: 1px solid #ced4da; /* Border color for tasks */
+  background-color: #ffffff; /* Background color for tasks */
+  padding: 15px; /* Padding around tasks */
+  margin-bottom: 15px; /* Bottom margin for tasks */
+  display: flex; /* Display tasks as flex containers */
+  justify-content: space-between; /* Space between task elements */
+  align-items: center; /* Center-align items within the task */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle shadow effect */
+  border-radius: 8px; /* Border radius for rounded corners */
+  transition: transform 0.3s ease; /* Transition effect for hovering */
+}
+
+/* Hover effect for tasks */
+.task:hover {
+  transform: translateY(-5px); /* Move the task upward slightly on hover */
+}
+
+/* Styling for completed tasks */
+.completed {
+  background-color: #28a745; /* Dark green background for completed tasks */
+  color: #ffffff; /* White text for better contrast */
+}
+
+/* Styling for task actions (Edit, Delete buttons) */
+.task-actions {
+  display: flex; /* Display task actions as flex containers */
+}
+
+/* Styling for the edit task form */
+.edit-task-form {
+  margin-top: 10px; /* Top margin for the edit task form */
+}
+
+/* Styling for input within the edit task form */
+.edit-task-form input {
+  width: calc(100% - 22px); /* Width of the input within the form */
+  padding: 10px; /* Padding for the input */
+  margin-right: 10px; /* Right margin for spacing */
+  border: 1px solid #ced4da; /* Border color for the input */
+  border-radius: 4px; /* Border radius for rounded corners */
+}
+
+/* Styling for buttons within the edit task form */
+.edit-task-form button {
+  margin-right: 5px; /* Right margin for spacing between buttons */
+}
